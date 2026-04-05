@@ -1,0 +1,35 @@
+To make your portfolio website fully ready to be published or shared, you have a few placeholders and missing links that need to be updated with your actual information and content.
+
+Here is a simple checklist of what to update, how to do it, and where to find it in your index.html:
+
+1. Social Media Links
+Where: <div class="social-media"> (Lines 49-53)
+What: Currently, the links are set to #.
+How: Replace the # with the actual URLs of your LinkedIn, GitHub, and Instagram profiles. Example: <a href="https://linkedin.com/in/yourprofile"><i class='bx bxl-linkedin'></i></a>
+2. Download Resume Button
+Where: <a href="#" class="btn btn-outline" download>Download Resume</a> (Line 58)
+What: The link doesn't point to a file yet.
+How: First, place your resume PDF (e.g., Sathvik_Resume.pdf) in the same folder as index.html. Then, change href="#" to href="Sathvik_Resume.pdf".
+3. Projects Section
+Where: <section class="projects" id="projects"> (Lines 137-184)
+What: You currently have 3 placeholder project cards with fake images, titles, and descriptions.
+How:
+Change the heading text from "Projects (Coming Soon)" when you add them.
+Update src="/placeholder-project.webp" to point to screenshots of your actual projects.
+Replace "Project Title" and the placeholder description paragraph for each card.
+Update the GitHub and Live Link anchor tags (<a href="#">) within <div class="project-links"> to point to the actual repositories and hosted projects.
+4. Client Reviews / Testimonials (Optional)
+Where: <section class="testimonials" id="testimonials"> (Lines 295-307)
+What: There is a dummy review stating "Projects will be updated soon." by a Placeholder Client.
+How: If you have real testimonials, update the text and client name. If you don't have testimonials yet, you might want to comment out this entire section (<!-- <section> ... </section> -->) so it doesn't show on the live site until you get some.
+5. Contact Information Text
+Where: Inside <div class="contact-info"> (Lines 317-324)
+What: The email and phone number are placeholders.
+How:
+Replace placeholder@email.com with your professional email address.
+Replace +91 (Placeholder) with your actual contact number.
+6. Verify Web3Forms Key
+Where: <input type="hidden" name="access_key" value="e2991beb-03c5-4994-b8a8-96c3c6d13247"> (Line 333)
+What: Checks that forms arrive in your inbox.
+How: Make sure that this access key is definitely generated from your own email on Web3Forms. If it is, no changes are needed here. Your script.js form submission logic is already perfectly set up.
+Once you fill in these 6 details, your portfolio will be 100% ready to deploy! Let me know if you would like me to help you fill out any of these items right now.
